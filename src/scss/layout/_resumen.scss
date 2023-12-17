@@ -1,0 +1,34 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenido-resumen{
+    border: 2px solid v.$azulPastel;
+    margin-left: 25%;
+    width: 50%;
+
+    p{
+        margin-bottom:1rem ;
+        margin-left: 1rem;
+            text-transform: uppercase;
+    }
+    p span{
+    color: v.$marron;
+    font-weight: v.$bold;
+    font-size: 2.4rem;
+
+
+    }
+}
+
+
+.contenedor-servicio {
+    border-bottom: 2px dotted v.$azulPastel;
+    }
+
+.boton-reserva {
+ float: right;
+}
+h3 {
+    text-decoration: underline;
+}
+

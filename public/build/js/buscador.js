@@ -1,0 +1,1 @@
+function iniciarApp(){buscarPorFecha()}function buscarPorFecha(){document.querySelector("#fecha").addEventListener("input",(function(n){const e=n.target.value;window.location="?fecha="+e})),console.log("buscar por fecha")}document.addEventListener("DOMContentLoaded",(function(){iniciarApp()}));
